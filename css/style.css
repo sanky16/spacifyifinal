@@ -91,6 +91,7 @@ ol {
 .sp-title {
 	font-size: 60px;
 	margin-bottom: 40px;
+	margin-top: 12px
 }
 
 .sp-title span {
@@ -274,6 +275,24 @@ ol {
 
 .element {
 	margin-bottom: 100px;
+}
+
+.wapp-float {
+	position: fixed;
+    z-index: 99999;
+    font-family: Poppins;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+	right:0;
+}
+
+.wapp-float	img{
+	width: 8vh;
+	border-radius: 50%;
 }
 
 /*===  Accordion ===*/
@@ -557,6 +576,7 @@ ol {
 .social-links a:hover {
 	color: #baff00;
 }
+
 
 .hero-right-text {
 	position: absolute;
